@@ -12,7 +12,7 @@ import urllib3
 import requests
 
 
-__author__ = 'WebUwU'
+__author__ = 'cf7yce'
 
 
 
@@ -84,7 +84,11 @@ api = "https://discord.com/api/v9"
 nwords = None
 ADMINISTRATOR_PERMISSION = 0x8
 MANAGE_GUILD_PERMISSION = 0x20
-bot_or_person = input("Is this a bot token or a person (user) token? (bot/person) ")
+import os
+
+# Reads from environment variable, defaults to 'bot' if not set
+bot_or_person = os.getenv("TOKEN_TYPE", "bot").lower() 
+
 
 if bot_or_person == "bot" or bot_or_person == "bo" or bot_or_person == "b":
     token = TOKEN
