@@ -1,22 +1,22 @@
 {
-    "TOKEN": "MTAyNzI2MzE0ODA3MzQyNjk5NQ.GDuyiS.QAV0na1noTJ3VxQ5lydNDpY2JIEPliEp7dbrNo",
+    "TOKEN": "MTU1ODIyMzAxMzkxNTEzNjA0MA.GLmWw7.q8Ra8mzj0C-odfcgyxeLnzmVxoOlbCJ9dhUv_8",
 
 
     "PROXIES": false,
     "SPAM_PRN": true,
 
 
-    "WEBHOOK_NAME": "bad prices",
-    "WEBHOOK_PROFILE_PIC": "https://cdn.discordapp.com/attachments/1025650157326450708/1056569437899210863/719BC2BF-AD90-4B23-9CB7-D9CAF3CDBE7E.jpg",
+    "WEBHOOK_NAME": "Cf7yce",
+    "WEBHOOK_PROFILE_PIC": "https://cdn.discordapp.com/avatars/1508722326928359495/c071f0cf9bc5762622f333024d05d76b.webp?size=1024",
 
     
-    "MESSAGE": "@everyone discord.gg/batch https://github.com/WebUwU/SigmaNuker",
-    "AMMOUNT_OF_CHANNELS": 2,
-    "MESSAGES_PER_CHANNEL": 2,
-    "CHANNEL_NAME": "bad",
+    "MESSAGE": "@everyone [Cf7yce ownz you](https://discord.gg/GEPmvs57Yx)",
+    "AMMOUNT_OF_CHANNELS": 30,
+    "MESSAGES_PER_CHANNEL": 5,
+    "CHANNEL_NAME": "nuked by Cf7yce",
 
 
-    "Delete_Roles": true,
-    "Server_Name": "to bad"
+    "Delete_Roles": false,
+    "Server_Name": "ayra hq op"
     
     }
