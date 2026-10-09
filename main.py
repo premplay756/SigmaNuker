@@ -102,7 +102,14 @@ else:
     Write.Print("Invalid option!", Colors.red)
     sys.exit()
 
-guild = input("What is the guild id of the server you are nuking? -> ")
+import os
+
+# Reads the guild ID from the environment, defaults to None if not found
+guild_id = os.getenv("GUILD_ID") 
+
+if not guild_id:
+    raise ValueError("GUILD_ID environment variable is missing!")
+    
 
 async def main():       
     async with aiohttp.ClientSession() as schinken:
