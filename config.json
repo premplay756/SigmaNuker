@@ -1,5 +1,8 @@
 {
-    "TOKEN": "MTU1ODIyMzAxMzkxNTEzNjA0MA.GLmWw7.q8Ra8mzj0C-odfcgyxeLnzmVxoOlbCJ9dhUv_8",
+    import os
+
+# New secure way (reads from Railway Variables)
+TOKEN = os.environ.get("DISCORD_TOKEN")
 
 
     "PROXIES": false,
