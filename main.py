@@ -18,7 +18,7 @@ __author__ = 'cf7yce'
 
 with open('config.json', 'r', encoding='utf-8') as f:
     config = json.load(f)
-    TOKEN = config["TOKEN"]
+    TOKEN = os.environ.get("DISCORD_TOKEN")
     MESSAGE = config["MESSAGE"]
     AMMOUNT_OF_CHANNELS = config["AMMOUNT_OF_CHANNELS"]
     SPAM_PRN = config["SPAM_PRN"]
