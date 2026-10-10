@@ -1,9 +1,14 @@
 {
-    import os
+    import json
+import os
 
-# New secure way (reads from Railway Variables)
+# Load the static configurations
+with open("config.json", "r") as file:
+    config = json.load(file)
+
+# Fetch the secure token from Railway environment variables
 TOKEN = os.environ.get("DISCORD_TOKEN")
-
+    
 
     "PROXIES": false,
     "SPAM_PRN": true,
